@@ -30,6 +30,12 @@ hs_err_pid*
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/sonarlint
+.idea/vcs.xml
+.idea/modules
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
