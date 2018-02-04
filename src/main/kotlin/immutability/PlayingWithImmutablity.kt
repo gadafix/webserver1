@@ -2,6 +2,7 @@ package immutability
 
 fun main(args: Array<String>) {
 
+    // the following code does has compilation errors - uncomment to see the errors
 /*
     data class InnerClass(val name: String = "Original")
 

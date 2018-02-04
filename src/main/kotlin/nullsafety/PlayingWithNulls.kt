@@ -1,6 +1,8 @@
 package nullsafety
 
 fun main(args: Array<String>) {
+
+    // the following code does has compilation errors - uncomment to see the errors
 /*
     val a: String = null // compilation error
 
