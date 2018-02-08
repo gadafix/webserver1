@@ -14,5 +14,6 @@ class DefaultParameterController {
     fun greeting(@RequestParam(value = "a") a: String?, @RequestParam(value = "b") b: String?, @RequestParam(value = "c") c: String?) {
         val dp = DefaultParameter()
         dp.overloadedMethod(a,b,c)
+        dp.overloadedMethod("a", c = "c")
     }
 }
